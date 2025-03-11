@@ -1,0 +1,19 @@
+Kernel (MS DOS) 
+-> cmd 
+    == .bat, .cmd 
+        -- cls, ping, echo 
+
+OS (Windows 10/11) 
+-> Powershell
+    == .ps1
+        -- Get-TPM, clear, Set-TimeZone, etc. 
+
+
+
+
+
+Avoiding limitations:
+
+powershell -command "get-timezone" 
+cmd.exe [/S /C|/K] "pause"
+
