@@ -36,5 +36,7 @@
 	get-tpm
 	write-host 'set-timezone "utc+13"'
 	# write-host -NoNewLine "Press any key to continue..."
-	cmd.exe /S /C pause
+	cls
+	echo ":3" 
+	cmd.exe /S /C pause 
 

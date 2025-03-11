@@ -1,0 +1,24 @@
+cmd
+> path \INSTSRV.EXE <path2service> \SRVANY.EXE 
+
+Registry Editor
+> HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\<serviceName> 
+
+Edit the key: Parameters
+Add a value as follows:
+Name: Application
+Type: REG_SZ
+String Value [Data]: <path\to>\<name.ext>
+
+
+By default the configured task will now run on start.
+
+This can be changed in Services by changing the 'Startup' value to Manual.
+
+After doing so, it can be run in one of three ways:
+
+- From services 
+- cmd > net start <serviceName>
+And with the Windows NT Resource Kit:
+- cmd > <path2reskit>\Sc.exe start <serviceName>
+

@@ -15,5 +15,5 @@ OS (Windows 10/11)
 Avoiding limitations:
 
 powershell -command "get-timezone" 
-cmd.exe [/S /C|/K] "<command>"
+cmd.exe [/S /C|/K] "<command>" 
 
