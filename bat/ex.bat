@@ -15,3 +15,7 @@ powershell -command "get-tpm"
 powershell -command "write-host 'set-timezone "utc+13"'"
 powershell -command "cmd.exe /S /C pause"
 
+start "C:\Program Files\Git\git-bash.exe"
+
+pause 
+

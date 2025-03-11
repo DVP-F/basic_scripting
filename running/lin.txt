@@ -1,0 +1,14 @@
+Make a .sh script executable for the current user by running 
+
+>> chmod +x <file>
+
+then either run graphically or from terminal:
+
+./<file>
+or
+sh <file>
+or
+bash <file>
+or 
+zsh <file>
+

@@ -1,0 +1,10 @@
+Either on the desktop or in 'C:\Users\%USER%\Desktop' /// 'C:\Brukere\%USER%...'
+
+Right-click and find New > Shortcut
+
+Type/paste in the path of the script
+
+Change the name if you want
+
+Run it
+

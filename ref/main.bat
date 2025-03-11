@@ -3,14 +3,15 @@ title Input mapping
 chcp 65001 >nul 
 mode 120,50 >nul 
 
+rem colour map: https://i.sstatic.net/DMHbn.png 
 
 :start 
+color 0D 
+cls 
 call :banner 
-
-
-echo  	[91m 1) ping vg.no 
-echo  	 2) powershell 
-echo         ^^C) exit 
+echo  	1) ping vg.no 
+echo  	2) powershell 
+echo        ^^C) exit 
 set /p input= %BS% ^>  	
 if /I %input% EQU 1 call :ping_vg 
 if /I %input% EQU 2 call :psc 
@@ -20,6 +21,8 @@ goto start
 
 
 :psc 
+cls 
+color 0A 
 cls 
 powershell 
 EXIT /B 

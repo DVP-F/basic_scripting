@@ -1,0 +1,14 @@
+Navigate to 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs'
+
+Right-click and find New > Shortcut
+
+Type/paste in the path of the script
+
+Change the name if you want
+
+Open the start menu
+
+Search for the given name
+
+Run or add to start or taskbar, or all three.
+

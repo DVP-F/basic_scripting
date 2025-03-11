@@ -34,7 +34,7 @@
 	# Run your code that needs to be elevated here
 	get-timezone
 	get-tpm
-	write-host -nonewline 'set-timezone "utc+13"'
+	write-host 'set-timezone "utc+13"'
 	# write-host -NoNewLine "Press any key to continue..."
 	cmd.exe /S /C pause
 
