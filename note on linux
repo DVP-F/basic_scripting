@@ -1,0 +1,4 @@
+linux stuff does not run natively on windows - so we install a subsystem.
+
+cmd > wsl --install -d kali-linux
+
