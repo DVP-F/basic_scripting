@@ -1,13 +1,13 @@
 # Plan
 
 1. Scripting languages for windows - /bat  
-   1. batch  
+   1. Batch  
       1. .bat  
       2. .cmd  
       3. Straight script vs 'Multitool'-style  
-   2. powershell  
+   2. Powershell  
       1. .ps1  
-      2. jank with running .ps1 scripts - see 'run ex-ps1.cmd'  
+      2. Jank with running .ps1 scripts - see 'run ex-ps1.cmd'  
 2. Windows jank  
 3. Scripting Language for linux - /sh  
    1. Shell  
