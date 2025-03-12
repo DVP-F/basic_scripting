@@ -1,7 +1,10 @@
-Linux stuff does not run natively on windows - so we install a subsystem.
+Linux stuff does not run natively on windows - so we install a subsystem. 
 
-cmd > wsl --install -d kali-linux
+cmd > wsl --install 
+cmd > wsl --install -d kali-linux 
+cmd > wsl --install -d ubuntu 
+cmd > wsl --install -d debian 
 
-To a certain degree you can run some scripts on something like Git Bash, however it is severely limited.
+To a certain degree you can run some scripts on something like Git Bash, however it is severely limited. 
 
 Additionally, calling spplications does not work as they arent installed. Just the baseline linux commands like top, grep, awk, bc, head, ping, etc. will be available. 
