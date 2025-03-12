@@ -2,3 +2,5 @@ linux stuff does not run natively on windows - so we install a subsystem.
 
 cmd > wsl --install -d kali-linux
 
+To a certain degree you can run some scripts on something like Git Bash, however it is severly limited.
+

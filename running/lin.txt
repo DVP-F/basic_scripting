@@ -2,7 +2,7 @@ Make a .sh script executable for the current user by running
 
 >> chmod +x <file>
 
-then either run graphically or from terminal:
+then either run graphically, or from terminal with:
 
 ./<file>
 or
