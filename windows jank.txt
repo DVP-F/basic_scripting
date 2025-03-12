@@ -1,0 +1,23 @@
+Kernel (MS DOS) 
+-> cmd 
+    == .bat, .cmd 
+        -- cls, ping, echo 
+
+OS (Windows 10/11) 
+-> Powershell
+    == .ps1
+        -- Get-TPM, clear, Set-TimeZone, etc. 
+
+A command prompt (cmd.exe) is limited to what the MS-DOS kernel has available of commands. 
+A Powershell (ISE or not) can do both OS level commands and call Kernel level commands -- although the latter isnt stable, guaranteed, or advised. 
+
+
+To avoid these limitations, call the app itself as such: 
+
+powershell -command "get-timezone" 
+cmd.exe [/S /C|/K] "<command>" 
+
+Note that this will start a process as a child of itself, which will take more resources than otherwise. 
+In the case of batch, use of the 'start' command will launch the given application in a different process, no longer a child of the routine that called it. 
+-- use this to run commands in parallell. See bat/para.bat 
+

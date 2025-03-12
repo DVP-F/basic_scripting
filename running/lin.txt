@@ -6,9 +6,12 @@ then either run graphically, or from terminal with:
 
 ./<file>
 or
-sh <file>
+sh ./<file>
 or
-bash <file>
+bash ./<file>
 or 
-zsh <file>
+zsh ./<file>
 
+most likely you want sh or bash. 
+
+Technically the './' isnt always needed but for the sake of ease-of-use and to guarantee itll work. its better to use than not. 
