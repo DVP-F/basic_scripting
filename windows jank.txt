@@ -8,7 +8,7 @@ OS (Windows 10/11)
     == .ps1
         -- Get-TPM, clear, Set-TimeZone, etc. 
 
-A command prompt (cmd.exe) is limited to what the MS-DOS kernel has available of commands. 
+A Command prompt (cmd.exe) is limited to what the MS-DOS kernel has available of commands. 
 A Powershell (ISE or not) can do both OS level commands and call Kernel level commands -- although the latter isnt stable, guaranteed, or advised. 
 
 

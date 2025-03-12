@@ -1,0 +1,11 @@
+ex.py is a Multi-tool style py script. 
+ex2.py is a basic linear script. 
+
+Advantages:
+Multitool
+    Allows you to choose between a set of actions/scripts, without running more than one py script to do so
+    Allows you to run more than one script consequtively by just not exiting when one is finished
+Basic script
+    Way easier to make and read
+    Runs faster and can be smaller yet with more function
+
