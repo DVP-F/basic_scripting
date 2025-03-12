@@ -1,0 +1,25 @@
+Make a .sh script executable for the current user by running 
+
+>> chmod +x <file>
+
+then either run graphically, or from terminal with:
+
+./<file>
+or
+sh ./<file>
+or
+bash ./<file>
+or 
+zsh ./<file>
+
+most likely you want sh or bash. 
+
+Technically the './' isnt always needed but for the sake of ease-of-use and to guarantee itll work, its better to use than not. 
+
+
+Linux CANNOT run a script properly if the line endings are CRLF - they have to be LF. 
+    The difference is:
+    CRLF: \r\n  [Carriage-return][Line-feed]
+    LF:   \n    [Line-feed]
+So when making a script, either make it on a linux system - you dont need to consider it then because itll be handled automatically - or make sure to set the line ending setting to LF for Linux, CRLF for Windows, and CR for Macintosh. 
+

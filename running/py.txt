@@ -1,2 +1,25 @@
-Take note of what version of python your script is made in/for
+Take note of what version of python your script is made in/for 
+
+Python scripts are run with one of the following: 
+
+
+cmd/ps > python %DRIVE%:\path\to\script.py 
+cmd/ps > python path\to\script.py 
+cmd/ps > python[insert version number] %DRIVE%:\path\to\script.py 
+cmd/ps > python[insert version number] path\to\script.py 
+cmd/ps > %DRIVE%:\path\to\python[insert version number].exe %DRIVE%:\path\to\script.py 
+cmd/ps > %DRIVE%:\path\to\python[insert version number].exe path\to\script.py 
+
+sh/bash/zsh > python path/to/script.py 
+sh/bash/zsh > python[insert version number] path/to/script.py 
+sh/bash/zsh > path/to/python[insert version number] path/to/script.py 
+
+
+Which one to use depends on: 
+- the default python version of your system 
+- what python binaries are registered in your system's %PATH% 
+- where the script.py is located relative to your terminal 
+- if you're using Linux or Windows (or other relevant OSes, eg. MacOS.) 
+
+NB!: Since Linux' paths are only absolute if they're prefaced with '/', there is little difference in whether it is or not, so i dont include this difference in my list. 
 
