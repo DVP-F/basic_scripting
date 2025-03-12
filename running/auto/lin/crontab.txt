@@ -1,0 +1,44 @@
+Use 'crontab -e' to edit cron tasks 
+
+Write tasks as such: 
+minute - hour - day-of-month - month - day-of-week - command 
+m h  dom mon dow   command 
+0 0 0 0 0 ping localhost:2360 -c 3 
+@reboot xfce-terminal top 
+
+use https://crontab.guru/ for help with generating 
+usable input for timing and its meaning: 
+* any time 
+, list separator 
+- range of values 
+/ step values 
+@yearly 
+@annually 
+@monthly 
+@weekly 
+@daily 
+@hourly 
+@reboot 
+
+NB: @ times are non-standard and not guaranteed to work. 
+
+Enable cron as a service with either: 
+sudo > systemctl enable cron 
+sudo > service cron enable 
+
+Check which is correct at https://linuxhandbook.com/start-stop-restart-cron/ 
+- or refer to: 
+
+
+For Redhat/CentOS: 
+service crond enable 
+
+On older versions of Redhat and Centos, use: 
+/etc/init.d/crond enable 
+
+For Ubuntu and Debian Systems: 
+sudo service cron enable 
+
+On older versions, you can use the following: 
+sudo /etc/init.d/cron enable 
+
