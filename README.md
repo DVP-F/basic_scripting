@@ -4,7 +4,7 @@ free to use as reference :3
 
 ## INFO
 
-this mf has 11 folders and 25 files  
+this mf has 11 folders and 26 files  
 of those we have the following:  
 
 - .ps1 = 1 file  
@@ -15,6 +15,7 @@ of those we have the following:
 - .md = 2 files  
 - .py = 2 files  
 - .desktop = 1 file  
+- .service = 1 file  
 
 ## Endin remarks
 

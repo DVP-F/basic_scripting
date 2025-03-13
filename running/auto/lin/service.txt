@@ -1,0 +1,39 @@
+Check example.service for basic structure of .service files. 
+
+Service files should be placed in /etc/systemd/system/ 
+
+The most important thing in the file is ExecStart - this contains the command to run your script. 
+
+The example file, like most services, is configured to run at boot 
+
+
+To enable your newly-created service, run the following commands: 
+
+> sudo systemctl daemon-reload                    // makes systemctl aware of your service file 
+> sudo systemctl enable <service name>.service    // <service name> is the name of the .service file. 
+> sudo systemctl is-enabled <service name>.service 
+
+is-enabled returns if the service is enabled or not. You can also check the status of the service with 
+
+> sudo systemctl status <service name>.service 
+
+Technically you can do without the .service appendum, but its better practice to use it. 
+
+
+This assumed that you have sudo. In the case you do not, or want to configure a service for a regular user, one that doesnt need su privileges, you can do this instead: 
+
+> mkdir ~/.config/systemd/user 
+
+Make a file in this directory with the same structure as example2.service 
+
+> systemctl --user daemon-reload 
+> systemctl --user enable <service name>.service 
+> systemctl --user is-enabled <service name>.service 
+
+Again, an alternative to check the status of the service is: 
+
+> systemctl --user status <service name>.service 
+
+
+If you want to read more about this, check out https://linuxhandbook.com/create-systemd-services/ 
+

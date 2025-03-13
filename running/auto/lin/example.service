@@ -1,0 +1,10 @@
+[Unit] 
+Description=Run my script thingie OwO 
+After=multi-user.target 
+
+[Service] 
+ExecStart=/usr/bin/bash /root/.scripts/<script>.sh    // or whatever command to run your script 
+Type=simple 
+
+[Install] 
+WantedBy=multi-user.target 

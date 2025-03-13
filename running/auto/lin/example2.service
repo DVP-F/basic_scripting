@@ -1,0 +1,11 @@
+[Unit] 
+Description=Runny user scriptie :o 
+After=multi-user.target 
+
+[Service] 
+Type=simple 
+ExecStart=/usr/bin/bash /home/%USER%/.scripts/<script>.sh    // or whatever command to run your script 
+TimeoutStartSec=0 
+
+[Install] 
+WantedBy=multi-user.target 
