@@ -15,7 +15,7 @@ of those we have the following:
 - .md = 2 files  
 - .py = 2 files  
 - .desktop = 1 file  
-- .service = 1 file  
+- .service = 2 files  
 
 These files total 16.4 kiB :3  
 
