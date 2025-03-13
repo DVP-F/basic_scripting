@@ -1,0 +1,4 @@
+On linux you can usually right-click on your desktop, and in the context menu use either 'Create launcher' or 'Create URL link'
+
+From there it should be fairly self-explanantory.
+

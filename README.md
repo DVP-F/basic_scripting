@@ -1,10 +1,10 @@
-# This is the material i made for a basic course in scripting i held recently. (will be recently at least)
+# This is the material i made for a basic course in scripting i held recently  
 
-free to use as reference
+free to use as reference :3  
 
 ## INFO
 
-this mf has 11 folders and 24 files  
+this mf has 11 folders and 25 files  
 of those we have the following:  
 
 - .ps1 = 1 file  
@@ -14,6 +14,7 @@ of those we have the following:
 - .txt = 13 files  
 - .md = 2 files  
 - .py = 2 files  
+- .desktop = 1 file  
 
 ## Endin remarks
 

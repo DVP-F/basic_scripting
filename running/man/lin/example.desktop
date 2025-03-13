@@ -1,0 +1,6 @@
+[Desktop Entry] 
+Type=Application 
+Terminal=true 
+Exec=python /home/guest/Downloads/script.py 
+Name=Scriptie :3 
+Comment=My script uwu 

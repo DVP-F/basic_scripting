@@ -1,0 +1,61 @@
+NB!: read through full procedure before committing. There are some flaws and downsides you have to balance to your needs. 
+
+Adding a shortcut to your "Start menu" or whiskermenu can go one of two ways; 
+
+1. Installing a menu manager 
+2. Creating a .desktop file 
+
+Using a menu manager: 
+
+For this, ill use MenuLibre, and installing it on a Debian-based distro (Kali) 
+
+Download the most recent compatible .deb package at https://packages.debian.org/sid/all/menulibre/download
+Direct link to NORWEGIAN dl server (2.2.2-2): http://ftp.no.debian.org/debian/pool/main/m/menulibre/menulibre_2.2.2-2_all.deb 
+
+In a terminal cd'd to your download directory: 
+> sudo dpkg -i menulibre_2.2.2-2_all.deb   // or whichever other version you have, use tab to auto-complete 'menulibre' 
+
+or without cd'ing 
+> sudo dpkg -i path/to/menulibre_2.2.2-2_all.deb    // yk what im gonna say here 
+
+If any dependency is missing, youll have to download a .deb package for that and install it the same way, before installing MenuLibre. 
+
+Launching MenuLibre from a terminal: 
+> menulibre 
+
+Launching from whiskermenu: 
+Search for 'Menu Editor' 
+
+! Depending on, this may have emptied your current whiskermenu, so you'll have to recreate it. 
+
+MenuLibre is very simple to use, so a little bit of exploring and/or searching up how to use it properly will be all you need to fully customize your menu. 
+
+
+Using a .desktop file: 
+
+The exact procedure here will likely depend heavily on your distro. I will show how to do it on Kali, and probably most other Debian-based distros. 
+
+In your file manager or terminal, navigate to: 
+/usr/share/applications
+
+Alternatively you can search for the correct location with '.desktop' in your file manager. (Make sure to search in 'File System')
+
+Create a file however you'd like (eg. nano, gedit, vim, etc.) 
+With the following name: <app name>.desktop (either on creation or edit name to this.) 
+If possible, avoid spaces in the name. 
+
+Now write the following in this file: 
+[Desktop Entry] 
+Type=Application 
+Terminal=true                         // or false, if it should open a terminal to run in or not. 
+Exec=<the command to run your app>    // should be something like 'sh ./home/%USER%/app.sh' or 'python /etc/script.py' 
+Name=<app name> 
+
+Optionally add: 
+GenericName=<what type of app it is> 
+Comment=<explanation of what your app is/does> 
+
+Check the example file example.desktop for well, an example. 
+
+! This is not guaranteed to work. It most likely will, but i can make no guarantees for this one. 
+
