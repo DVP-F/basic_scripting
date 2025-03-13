@@ -17,6 +17,8 @@ of those we have the following:
 - .desktop = 1 file  
 - .service = 1 file  
 
+These files total 16.4 kiB :3  
+
 ## Endin remarks
 
 Finally, take a peek at [./plan.md](https://github.com/DVP-F/basic_scripting/blob/master/plan.md) for an overview of everything this covers.
