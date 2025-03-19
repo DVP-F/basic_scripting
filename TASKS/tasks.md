@@ -101,3 +101,5 @@ for file in os.listdir(args.folder):
 - **Write a CMD batch script that asks for two numbers and adds them.**  
 - **Write a script (any language) to ping a given IP 5 times and report if it's up or down.**  
 - **Write a script to create scripts for you with pre-made modules - any lang.**
+- **Interact with a DB (any lang) (any DB) with either a TUI or GUI**
+- **Automatically scan downloaded files with the VirusTotal API**
