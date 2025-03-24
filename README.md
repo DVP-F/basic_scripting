@@ -4,7 +4,7 @@ free to use as reference :3
 
 ## INFO
 
-this mf has 11 folders and 26 files  
+this mf has 11 folders and 26 files excluding the EXAMPLES folder
 of those we have the following:  
 
 - .ps1 = 1 file  
@@ -16,8 +16,6 @@ of those we have the following:
 - .py = 2 files  
 - .desktop = 1 file  
 - .service = 2 files  
-
-These files total 16.4 kiB :3  
 
 ## Endin remarks
 
