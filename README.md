@@ -1,10 +1,10 @@
-# This is the material i made for a basic course in scripting i held recently  
+# Materials for course in Scripting basics
 
 free to use as reference :3  
 
 ## INFO
 
-this mf has 11 folders and 26 files  
+this mf has 12 folders and 27 files excluding the EXAMPLES folder
 of those we have the following:  
 
 - .ps1 = 1 file  
@@ -12,12 +12,10 @@ of those we have the following:
 - .cmd = 2 files  
 - .sh = 1 file  
 - .txt = 13 files  
-- .md = 2 files  
+- .md = 3 files  
 - .py = 2 files  
 - .desktop = 1 file  
 - .service = 2 files  
-
-These files total 16.4 kiB :3  
 
 ## Endin remarks
 
