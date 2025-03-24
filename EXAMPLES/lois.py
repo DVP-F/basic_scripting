@@ -1,4 +1,4 @@
-from scapy.all import IP, TCP, send # pip install scapy --python C:\path\to\python
+from scapy.all import IP, TCP, send # type: ignore // pip install scapy --python C:\path\to\python
 
 # Define the target IP address and list of port numbers
 target_ip = "192.168.1.2"
