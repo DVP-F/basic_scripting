@@ -1,4 +1,4 @@
-# This is the material i made for a basic course in scripting i held recently  
+# Materials for course in Scripting basics
 
 free to use as reference :3  
 
