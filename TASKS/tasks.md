@@ -104,3 +104,4 @@ for file in os.listdir(args.folder):
 - **Interact with a DB (any lang) (any DB) with either a TUI or GUI**
 - **Automatically scan downloaded files with the VirusTotal API**
 - **Make a script that scans a given IP for open/closed ports**
+- ***Figure out how the dbx_upload.exe script works.***
