@@ -4,7 +4,7 @@ free to use as reference :3
 
 ## INFO
 
-this mf has 11 folders and 26 files excluding the EXAMPLES folder
+this mf has 12 folders and 27 files excluding the EXAMPLES folder
 of those we have the following:  
 
 - .ps1 = 1 file  
