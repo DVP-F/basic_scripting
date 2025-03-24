@@ -12,7 +12,7 @@ of those we have the following:
 - .cmd = 2 files  
 - .sh = 1 file  
 - .txt = 13 files  
-- .md = 2 files  
+- .md = 3 files  
 - .py = 2 files  
 - .desktop = 1 file  
 - .service = 2 files  
