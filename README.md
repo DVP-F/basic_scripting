@@ -1,6 +1,6 @@
 # Materials for course in Scripting basics
 
-free to use as reference :3  
+**free to use as reference :3**  
 
 ## INFO
 

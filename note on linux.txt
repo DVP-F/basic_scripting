@@ -7,4 +7,4 @@ cmd > wsl --install -d debian
 
 To a certain degree you can run some scripts on something like Git Bash, however it is severely limited. 
 
-Additionally, calling spplications does not work as they arent installed. Just the baseline linux commands like top, grep, awk, bc, head, ping, etc. will be available. 
+Additionally, calling applications does not work as they arent installed. Just the baseline linux commands like top, grep, awk, bc, head, ping, etc. will be available. 
